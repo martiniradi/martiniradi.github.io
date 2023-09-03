@@ -239,45 +239,6 @@
 
 
 
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-X2X9PVVR4"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-
-  function gtag() {
-      dataLayer.push(arguments);
-  }
-
-  function trackOutboundLink(url, target) {
-    gtag('event', 'click', {
-         'event_category': 'outbound',
-         'event_label': url,
-         'transport_type': 'beacon',
-         'event_callback': function () {
-           if (target !== '_blank') {
-             document.location = url;
-           }
-         }
-    });
-    console.debug("Outbound link clicked: " + url);
-  }
-
-  function onClickCallback(event) {
-    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
-      return;
-    }
-    trackOutboundLink(event.target, event.target.getAttribute('target'));  
-  }
-
-  gtag('js', new Date());
-  gtag('config', 'G-X2X9PVVR4', {});
-  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
-
-  
-  document.addEventListener('click', onClickCallback, false);
-</script>
-
-
-
 
 
 
@@ -328,8 +289,8 @@
 
 
 
-<link rel="icon" type="image/png" href="/media/icon_huc2687f4b1d20c87780b4d77db9aeb25f_38841_32x32_fill_lanczos_center_3.png" />
-<link rel="apple-touch-icon" type="image/png" href="/media/icon_huc2687f4b1d20c87780b4d77db9aeb25f_38841_180x180_fill_lanczos_center_3.png" />
+<link rel="icon" type="image/png" href="/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_3.png" />
+<link rel="apple-touch-icon" type="image/png" href="/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_180x180_fill_lanczos_center_3.png" />
 
 <meta name="theme-color" content="#1565c0" />
 
@@ -354,39 +315,39 @@
 
   <meta property="twitter:site" content="@wowchemy" />
   <meta property="twitter:creator" content="@wowchemy" />
-<meta property="twitter:image" content="https://martiniradi.github.io/media/icon_huc2687f4b1d20c87780b4d77db9aeb25f_38841_512x512_fill_lanczos_center_3.png" />
-<meta property="og:site_name" content="Bernardo Martin-Iradi" />
+<meta property="twitter:image" content="https://martiniradi.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png" />
+<meta property="og:site_name" content="Academic" />
 <meta property="og:url" content="https://martiniradi.github.io/publication-type/3/" />
-<meta property="og:title" content="3 | Bernardo Martin-Iradi" />
-<meta property="og:description" content="A highly-customizable Hugo academic resume theme powered by Wowchemy website builder." /><meta property="og:image" content="https://martiniradi.github.io/media/icon_huc2687f4b1d20c87780b4d77db9aeb25f_38841_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
+<meta property="og:title" content="3 | Academic" />
+<meta property="og:description" content="A highly-customizable Hugo academic resume theme powered by Wowchemy website builder." /><meta property="og:image" content="https://martiniradi.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
 
   
-    <meta property="og:updated_time" content="2023-01-28T00:00:00&#43;00:00" />
-  
-
-
-
-
-
-
-
-
-
-
-  
-  
-  
-
-  
-  
-    <link rel="alternate" href="/publication-type/3/index.xml" type="application/rss+xml" title="Bernardo Martin-Iradi" />
-  
-
+    <meta property="og:updated_time" content="2019-04-07T00:00:00&#43;00:00" />
   
 
 
+
+
+
+
+
+
+
+
   
-  <title>3 | Bernardo Martin-Iradi</title>
+  
+  
+
+  
+  
+    <link rel="alternate" href="/publication-type/3/index.xml" type="application/rss+xml" title="Academic" />
+  
+
+  
+
+
+  
+  <title>3 | Academic</title>
 
   
   
@@ -485,7 +446,7 @@
 
       
       <div class="d-none d-lg-inline-flex">
-        <a class="navbar-brand" href="/">Bernardo Martin-Iradi</a>
+        <a class="navbar-brand" href="/">Academic</a>
       </div>
       
 
@@ -498,7 +459,7 @@
 
       
       <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
-        <a class="navbar-brand" href="/">Bernardo Martin-Iradi</a>
+        <a class="navbar-brand" href="/">Academic</a>
       </div>
       
 
@@ -578,7 +539,155 @@
           
 
           <li class="nav-item">
+            <a class="nav-link " href="/#posts"><span>Posts</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#projects"><span>Projects</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#talks"><span>Talks</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
             <a class="nav-link " href="/#featured"><span>Publications</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#contact"><span>Contact</span></a>
           </li>
 
           
@@ -712,13 +821,13 @@
   <div class="media-body">
 
     <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/publication/alns23/" >An Adaptive Large Neighborhood Search Heuristic for The Multiport Continuous Berth Allocation Problem</a>
+      <a href="/publication/preprint/" >An example preprint / working paper</a>
     </div>
 
     
-    <a href="/publication/alns23/"  class="summary-link">
+    <a href="/publication/preprint/"  class="summary-link">
       <div class="article-style">
-        In this paper, we study a problem that integrates the vessel scheduling problem with the berth allocation into a collaborative problem …
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
       </div>
     </a>
     
@@ -732,9 +841,7 @@
         
 
   <span class="author-highlighted">
-      Alice Wu 吳恩達</span>, <span >
-      Dario Pacino</span>, <span >
-      Stefan Ropke</span>
+      Alice Wu 吳恩達</span>
       </div>
       
     </div>
@@ -751,32 +858,91 @@
 
 
   
+    
+  
 
 
 
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="/publication/alns23/ALNS23.pdf" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="http://arxiv.org/pdf/1512.04133v1" target="_blank" rel="noopener">
   PDF
 </a>
 
 
 
-<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
-        data-filename="/publication/alns23/cite.bib">
-  Cite
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://github.com/wowchemy/wowchemy-hugo-themes" target="_blank" rel="noopener">
+  Code
+</a>
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="/#" target="_blank" rel="noopener">
+  Dataset
 </a>
 
 
 
+  
+    
+  
 
 
 
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="/#" target="_blank" rel="noopener">
+  Poster
+</a>
+
+
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/slides/example/" target="_blank">
+    Slides
+  </a>
+  
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="/#" target="_blank" rel="noopener">
+  Video
+</a>
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="/#" target="_blank" rel="noopener">
+  Source Document
+</a>
 
 
 
-
-
-
-
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="http://example.org" target="_blank" rel="noopener">
+    Custom Link</a>
 
 
     </div>
@@ -787,70 +953,10 @@
     
     
       
-      <a href="/publication/alns23/" >
-        <img src="/publication/alns23/featured_hu8fd0be7506d0b940eed907ec6df0f544_1149986_150x0_resize_q75_h2_lanczos.webp" height="100" width="150"
-            alt="An Adaptive Large Neighborhood Search Heuristic for The Multiport Continuous Berth Allocation Problem" loading="lazy">
+      <a href="/publication/preprint/" >
+        <img src="/publication/preprint/featured_hu559a5add5185b02575aa8333502ab2cc_220813_150x0_resize_q75_h2_lanczos.webp" height="100" width="150"
+            alt="An example preprint / working paper" loading="lazy">
       </a>
-    
-  </div>
-</div>
-
-  
-    
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-  
-
-
-<div class="media stream-item view-compact">
-  <div class="media-body">
-
-    <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/publication/microtransit/" >Design and optimization of on-demand microtransit systems</a>
-    </div>
-
-    
-    <a href="/publication/microtransit/"  class="summary-link">
-      <div class="article-style">
-        On-demand microtransit defines a middle ground between public transit (with a reference route and a reference schedule) and on-demand …
-      </div>
-    </a>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-      <div>
-        
-
-  <span class="author-highlighted">
-      Alice Wu 吳恩達</span>, <span >
-      Kayla Cummings</span>, <span >
-      Alexandre Jacquillat</span>
-      </div>
-      
-    </div>
-
-    
-
-  </div>
-  <div class="ml-3">
-    
     
   </div>
 </div>

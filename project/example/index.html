@@ -239,45 +239,6 @@
 
 
 
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-X2X9PVVR4"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-
-  function gtag() {
-      dataLayer.push(arguments);
-  }
-
-  function trackOutboundLink(url, target) {
-    gtag('event', 'click', {
-         'event_category': 'outbound',
-         'event_label': url,
-         'transport_type': 'beacon',
-         'event_callback': function () {
-           if (target !== '_blank') {
-             document.location = url;
-           }
-         }
-    });
-    console.debug("Outbound link clicked: " + url);
-  }
-
-  function onClickCallback(event) {
-    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
-      return;
-    }
-    trackOutboundLink(event.target, event.target.getAttribute('target'));  
-  }
-
-  gtag('js', new Date());
-  gtag('config', 'G-X2X9PVVR4', {});
-  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
-
-  
-  document.addEventListener('click', onClickCallback, false);
-</script>
-
-
-
 
 
 
@@ -328,8 +289,8 @@
 
 
 
-<link rel="icon" type="image/png" href="/media/icon_huc2687f4b1d20c87780b4d77db9aeb25f_38841_32x32_fill_lanczos_center_3.png" />
-<link rel="apple-touch-icon" type="image/png" href="/media/icon_huc2687f4b1d20c87780b4d77db9aeb25f_38841_180x180_fill_lanczos_center_3.png" />
+<link rel="icon" type="image/png" href="/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_3.png" />
+<link rel="apple-touch-icon" type="image/png" href="/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_180x180_fill_lanczos_center_3.png" />
 
 <meta name="theme-color" content="#1565c0" />
 
@@ -354,9 +315,9 @@
   <meta property="twitter:site" content="@wowchemy" />
   <meta property="twitter:creator" content="@wowchemy" />
 <meta property="twitter:image" content="https://martiniradi.github.io/project/example/featured.jpg" />
-<meta property="og:site_name" content="Bernardo Martin-Iradi" />
+<meta property="og:site_name" content="Academic" />
 <meta property="og:url" content="https://martiniradi.github.io/project/example/" />
-<meta property="og:title" content="Example Project | Bernardo Martin-Iradi" />
+<meta property="og:title" content="Example Project | Academic" />
 <meta property="og:description" content="An example of using the in-built project page." /><meta property="og:image" content="https://martiniradi.github.io/project/example/featured.jpg" /><meta property="og:locale" content="en-us" />
 
   
@@ -408,10 +369,10 @@
   
   "publisher": {
     "@type": "Organization",
-    "name": "Bernardo Martin-Iradi",
+    "name": "Academic",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://martiniradi.github.io/media/icon_huc2687f4b1d20c87780b4d77db9aeb25f_38841_192x192_fill_lanczos_center_3.png"
+      "url": "https://martiniradi.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_3.png"
     }
   },
   "description": "An example of using the in-built project page."
@@ -436,7 +397,7 @@
 
 
   
-  <title>Example Project | Bernardo Martin-Iradi</title>
+  <title>Example Project | Academic</title>
 
   
   
@@ -535,7 +496,7 @@
 
       
       <div class="d-none d-lg-inline-flex">
-        <a class="navbar-brand" href="/">Bernardo Martin-Iradi</a>
+        <a class="navbar-brand" href="/">Academic</a>
       </div>
       
 
@@ -548,7 +509,7 @@
 
       
       <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
-        <a class="navbar-brand" href="/">Bernardo Martin-Iradi</a>
+        <a class="navbar-brand" href="/">Academic</a>
       </div>
       
 
@@ -628,7 +589,155 @@
           
 
           <li class="nav-item">
+            <a class="nav-link " href="/#posts"><span>Posts</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#projects"><span>Projects</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#talks"><span>Talks</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
             <a class="nav-link " href="/#featured"><span>Publications</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#contact"><span>Contact</span></a>
           </li>
 
           
@@ -995,7 +1104,7 @@
   <div class="media author-card content-widget-hr">
     
       
-      <a href="https://martiniradi.github.io/"><img class="avatar mr-3 avatar-circle" src="/authors/admin/avatar_hu1d7b81394b151024c38242132536ebd0_301793_270x270_fill_q75_lanczos_center.jpg" alt="Alice Wu 吳恩達"></a>
+      <a href="https://martiniradi.github.io/"><img class="avatar mr-3 avatar-circle" src="/authors/admin/avatar_hu3c64bd0f98018e2d901b7c60447ac42e_1387900_270x270_fill_q75_lanczos_center.jpg" alt="Alice Wu 吳恩達"></a>
     
 
     <div class="media-body">
@@ -1136,6 +1245,157 @@
 
       
       
+      
+        <h2>Publications</h2>
+        
+          
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item view-compact">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/publication/conference-paper/" >An example conference paper</a>
+    </div>
+
+    
+    <a href="/publication/conference-paper/"  class="summary-link">
+      <div class="article-style">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  <span class="author-highlighted">
+      Alice Wu 吳恩達</span><i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="Equal contribution"></i>, <span >
+      Robert Ford</span><i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="Equal contribution"></i>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="/publication/conference-paper/conference-paper.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/conference-paper/cite.bib">
+  Cite
+</a>
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://github.com/wowchemy/wowchemy-hugo-themes" target="_blank" rel="noopener">
+  Code
+</a>
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://github.com/wowchemy/wowchemy-hugo-themes" target="_blank" rel="noopener">
+  Dataset
+</a>
+
+
+
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/example/">
+    Project
+  </a>
+  
+
+
+
+
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/slides/example/" target="_blank">
+    Slides
+  </a>
+  
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://youtube.com" target="_blank" rel="noopener">
+  Video
+</a>
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://github.com/wowchemy/wowchemy-hugo-themes" target="_blank" rel="noopener">
+  Source Document
+</a>
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+      
+      <a href="/publication/conference-paper/" >
+        <img src="/publication/conference-paper/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_312700_150x0_resize_q75_h2_lanczos.webp" height="100" width="150"
+            alt="An example conference paper" loading="lazy">
+      </a>
+    
+  </div>
+</div>
+
+        
       
 
       

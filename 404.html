@@ -239,45 +239,6 @@
 
 
 
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-X2X9PVVR4"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-
-  function gtag() {
-      dataLayer.push(arguments);
-  }
-
-  function trackOutboundLink(url, target) {
-    gtag('event', 'click', {
-         'event_category': 'outbound',
-         'event_label': url,
-         'transport_type': 'beacon',
-         'event_callback': function () {
-           if (target !== '_blank') {
-             document.location = url;
-           }
-         }
-    });
-    console.debug("Outbound link clicked: " + url);
-  }
-
-  function onClickCallback(event) {
-    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
-      return;
-    }
-    trackOutboundLink(event.target, event.target.getAttribute('target'));  
-  }
-
-  gtag('js', new Date());
-  gtag('config', 'G-X2X9PVVR4', {});
-  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
-
-  
-  document.addEventListener('click', onClickCallback, false);
-</script>
-
-
-
 
 
 
@@ -328,8 +289,8 @@
 
 
 
-<link rel="icon" type="image/png" href="/media/icon_huc2687f4b1d20c87780b4d77db9aeb25f_38841_32x32_fill_lanczos_center_3.png" />
-<link rel="apple-touch-icon" type="image/png" href="/media/icon_huc2687f4b1d20c87780b4d77db9aeb25f_38841_180x180_fill_lanczos_center_3.png" />
+<link rel="icon" type="image/png" href="/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_3.png" />
+<link rel="apple-touch-icon" type="image/png" href="/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_180x180_fill_lanczos_center_3.png" />
 
 <meta name="theme-color" content="#1565c0" />
 
@@ -354,11 +315,11 @@
 
   <meta property="twitter:site" content="@wowchemy" />
   <meta property="twitter:creator" content="@wowchemy" />
-<meta property="twitter:image" content="https://martiniradi.github.io/media/icon_huc2687f4b1d20c87780b4d77db9aeb25f_38841_512x512_fill_lanczos_center_3.png" />
-<meta property="og:site_name" content="Bernardo Martin-Iradi" />
+<meta property="twitter:image" content="https://martiniradi.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png" />
+<meta property="og:site_name" content="Academic" />
 <meta property="og:url" content="https://martiniradi.github.io/404.html" />
-<meta property="og:title" content="404 Page not found | Bernardo Martin-Iradi" />
-<meta property="og:description" content="A highly-customizable Hugo academic resume theme powered by Wowchemy website builder." /><meta property="og:image" content="https://martiniradi.github.io/media/icon_huc2687f4b1d20c87780b4d77db9aeb25f_38841_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
+<meta property="og:title" content="404 Page not found | Academic" />
+<meta property="og:description" content="A highly-customizable Hugo academic resume theme powered by Wowchemy website builder." /><meta property="og:image" content="https://martiniradi.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
 
   
 
@@ -382,7 +343,7 @@
 
 
   
-  <title>404 Page not found | Bernardo Martin-Iradi</title>
+  <title>404 Page not found | Academic</title>
 
   
   
@@ -481,7 +442,7 @@
 
       
       <div class="d-none d-lg-inline-flex">
-        <a class="navbar-brand" href="/">Bernardo Martin-Iradi</a>
+        <a class="navbar-brand" href="/">Academic</a>
       </div>
       
 
@@ -494,7 +455,7 @@
 
       
       <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
-        <a class="navbar-brand" href="/">Bernardo Martin-Iradi</a>
+        <a class="navbar-brand" href="/">Academic</a>
       </div>
       
 
@@ -574,7 +535,155 @@
           
 
           <li class="nav-item">
+            <a class="nav-link " href="/#posts"><span>Posts</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#projects"><span>Projects</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#talks"><span>Talks</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
             <a class="nav-link " href="/#featured"><span>Publications</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#contact"><span>Contact</span></a>
           </li>
 
           
@@ -671,21 +780,21 @@
     
       <li><a href="/talk/example-talk/">Example Talk</a></li>
     
-      <li><a href="/publication/">Publications</a></li>
-    
-      <li><a href="/publication/alns23/">An Adaptive Large Neighborhood Search Heuristic for The Multiport Continuous Berth Allocation Problem</a></li>
-    
-      <li><a href="/publication/microtransit/">Design and optimization of on-demand microtransit systems</a></li>
-    
-      <li><a href="/publication/ts2022/">The Multiport Berth Allocation Problem with Speed Optimization: Exact Methods and a Cooperative Game Analysis</a></li>
-    
-      <li><a href="/publication/ejor22/">A column-generation based matheuristic for periodic and symmetric train timetabling with integrated passenger routing</a></li>
-    
       <li><a href="/post/getting-started/">Welcome to Wowchemy, the website builder for Hugo</a></li>
     
       <li><a href="/post/">Posts</a></li>
     
       <li><a href="/post/writing-technical-content/">Writing technical content in Markdown</a></li>
+    
+      <li><a href="/publication/">Publications</a></li>
+    
+      <li><a href="/publication/preprint/">An example preprint / working paper</a></li>
+    
+      <li><a href="/slides/example/">Slides</a></li>
+    
+      <li><a href="/slides/">Slides</a></li>
+    
+      <li><a href="/post/jupyter/">Display Jupyter Notebooks with Academic</a></li>
     
   </ul>
   
