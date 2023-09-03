@@ -304,22 +304,21 @@
 
 
   
-  
 
 
 
 
 
 
-<meta property="twitter:card" content="summary" />
+<meta property="twitter:card" content="summary_large_image" />
 
   <meta property="twitter:site" content="@wowchemy" />
   <meta property="twitter:creator" content="@wowchemy" />
-<meta property="twitter:image" content="https://martiniradi.github.io/media/icon_huc2687f4b1d20c87780b4d77db9aeb25f_38841_512x512_fill_lanczos_center_3.png" />
+<meta property="twitter:image" content="https://martiniradi.github.io/talk/design-and-operation-of-demand-responsive-microtransit/featured.png" />
 <meta property="og:site_name" content="Bernardo Martin-Iradi" />
 <meta property="og:url" content="https://martiniradi.github.io/talk/design-and-operation-of-demand-responsive-microtransit/" />
 <meta property="og:title" content="Design and Operation of Demand-Responsive Microtransit | Bernardo Martin-Iradi" />
-<meta property="og:description" content="Demand-responsive microtransit defines a middle ground between public transit (reference route) and on-demand mobility (real-time routing adjustments). We formulate a two-stage stochastic program to optimize network design (in the first stage) and system operations (in the second stage). We propose an effective model representation based on time-space-load networks with subpath variables. We solve it via a tailored algorithm combining Benders decomposition and column generation. Results on real-world data indicate that the proposed algorithm outperforms baseline modeling and computational approaches, and that microtransit systems can provide win-win benefits compared to transit and ride-sharing systems —higher level of service, lower operating costs, and smaller environmental footprint." /><meta property="og:image" content="https://martiniradi.github.io/media/icon_huc2687f4b1d20c87780b4d77db9aeb25f_38841_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
+<meta property="og:description" content="Demand-responsive microtransit defines a middle ground between public transit (reference route) and on-demand mobility (real-time routing adjustments). We formulate a two-stage stochastic program to optimize network design (in the first stage) and system operations (in the second stage). We propose an effective model representation based on time-space-load networks with subpath variables. We solve it via a tailored algorithm combining Benders decomposition and column generation. Results on real-world data indicate that the proposed algorithm outperforms baseline modeling and computational approaches, and that microtransit systems can provide win-win benefits compared to transit and ride-sharing systems —higher level of service, lower operating costs, and smaller environmental footprint." /><meta property="og:image" content="https://martiniradi.github.io/talk/design-and-operation-of-demand-responsive-microtransit/featured.png" /><meta property="og:locale" content="en-us" />
 
   
     <meta
@@ -355,7 +354,7 @@
   
   "location": {
     "@type": "Place",
-    "name": "CC-North 222A",
+    "name": "Phoenix Convention Centre, CC-North 222A",
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "100 N 3rd St",
@@ -367,6 +366,10 @@
     
   },
   
+  
+  "image": [
+    "https://martiniradi.github.io/talk/design-and-operation-of-demand-responsive-microtransit/featured.png"
+  ],
   
   "startDate": "2023-10-15T14:15:00Z",
   
@@ -588,7 +591,44 @@
           
 
           <li class="nav-item">
-            <a class="nav-link " href="/#featured"><span>Publications</span></a>
+            <a class="nav-link " href="/#talks"><span>Talks</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#publications"><span>Publications</span></a>
           </li>
 
           
@@ -706,18 +746,25 @@
 
 
 
-  
+
+
+
+
+
+
+
+
 
   
   
-  
+
+
 <div class="article-container pt-3">
   <h1>Design and Operation of Demand-Responsive Microtransit</h1>
 
   
 
   
-    
 
 
 <div class="article-metadata">
@@ -741,13 +788,20 @@
 
 </div>
 
-    
-
-
-
-
-
   
+
+
+
+
+
+</div>
+
+
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 500px; max-height: 236px;">
+  <div style="position: relative">
+    <img src="/talk/design-and-operation-of-demand-responsive-microtransit/featured_hub9813082cf9a67f6f0a36c3f9703f391_9436_720x2500_fit_q75_h2_lanczos_3.webp" width="500" height="236" alt="" class="featured-image">
+    <span class="article-header-caption">Image credit: <a href="https://meetings.informs.org/wordpress/phoenix2023/" target="_blank" rel="noopener"><strong>INFORMS</strong></a></span>
+  </div>
 </div>
 
 
@@ -797,7 +851,7 @@
       <div class="col-md-10">
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Location</div>
-          <div class="col-12 col-md-9">CC-North 222A</div>
+          <div class="col-12 col-md-9">Phoenix Convention Centre, CC-North 222A</div>
           
             <div class="col-md-3"></div>
             <div class="col-12 col-md-9">100 N 3rd St, Phoenix, AZ 85004</div>
@@ -812,18 +866,22 @@
     <div class="space-below"></div>
 
     <div class="article-style">
-      <div class="alert alert-note">
+      <!-- # 
+
+<div class="alert alert-note">
   <div>
     Click on the <strong>Slides</strong> button above to view the built-in slides feature.
   </div>
 </div>
-<p>Slides can be added in a few ways:</p>
-<ul>
-<li><strong>Create</strong> slides using Wowchemy&rsquo;s <a href="https://wowchemy.com/docs/managing-content/#create-slides" target="_blank" rel="noopener"><em>Slides</em></a> feature and link using <code>slides</code> parameter in the front matter of the talk file</li>
-<li><strong>Upload</strong> an existing slide deck to <code>static/</code> and link using <code>url_slides</code> parameter in the front matter of the talk file</li>
-<li><strong>Embed</strong> your slides (e.g. Google Slides) or presentation video on this page using <a href="https://wowchemy.com/docs/writing-markdown-latex/" target="_blank" rel="noopener">shortcodes</a>.</li>
-</ul>
-<p>Further event details, including <a href="https://wowchemy.com/docs/writing-markdown-latex/" target="_blank" rel="noopener">page elements</a> such as image galleries, can be added to the body of this page.</p>
+
+
+Slides can be added in a few ways:
+
+- **Create** slides using Wowchemy's [_Slides_](https://wowchemy.com/docs/managing-content/#create-slides) feature and link using `slides` parameter in the front matter of the talk file
+- **Upload** an existing slide deck to `static/` and link using `url_slides` parameter in the front matter of the talk file
+- **Embed** your slides (e.g. Google Slides) or presentation video on this page using [shortcodes](https://wowchemy.com/docs/writing-markdown-latex/).
+
+Further event details, including [page elements](https://wowchemy.com/docs/writing-markdown-latex/) such as image galleries, can be added to the body of this page. -->
 
     </div>
 
