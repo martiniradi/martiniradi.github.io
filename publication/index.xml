@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Publications | Bernardo Martin-Iradi</title>
+    <title>Publications (alphabetical order, first-(co)authorships are bolded) | Bernardo Martin-Iradi</title>
     <link>https://martiniradi.github.io/publication/</link>
       <atom:link href="https://martiniradi.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
-    <description>Publications</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 28 Jan 2023 00:00:00 +0000</lastBuildDate>
+    <description>Publications (alphabetical order, first-(co)authorships are bolded)</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 02 Feb 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://martiniradi.github.io/media/icon_huc2687f4b1d20c87780b4d77db9aeb25f_38841_512x512_fill_lanczos_center_3.png</url>
-      <title>Publications</title>
+      <title>Publications (alphabetical order, first-(co)authorships are bolded)</title>
       <link>https://martiniradi.github.io/publication/</link>
     </image>
     
     <item>
-      <title>An Adaptive Large Neighborhood Search Heuristic for The Multiport Continuous Berth Allocation Problem</title>
-      <link>https://martiniradi.github.io/publication/alns23/</link>
-      <pubDate>Sat, 28 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>https://martiniradi.github.io/publication/alns23/</guid>
+      <title>Deviated Fixed-route Microtransit: Design and Operations</title>
+      <link>https://martiniradi.github.io/publication/microtransit/</link>
+      <pubDate>Fri, 02 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://martiniradi.github.io/publication/microtransit/</guid>
       <description>&lt;!-- 
 
 &lt;div class=&#34;alert alert-note&#34;&gt;
@@ -40,10 +40,10 @@ Supplementary notes can be added here, including [code, math, and images](https:
     </item>
     
     <item>
-      <title>Design and optimization of on-demand microtransit systems</title>
-      <link>https://martiniradi.github.io/publication/microtransit/</link>
-      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>https://martiniradi.github.io/publication/microtransit/</guid>
+      <title>An Adaptive Large Neighborhood Search Heuristic for The Multiport Continuous Berth Allocation Problem</title>
+      <link>https://martiniradi.github.io/publication/alns23/</link>
+      <pubDate>Sat, 28 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://martiniradi.github.io/publication/alns23/</guid>
       <description>&lt;!-- 
 
 &lt;div class=&#34;alert alert-note&#34;&gt;

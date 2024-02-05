@@ -2,6 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://martiniradi.github.io/publication-type/3/</loc>
+    <lastmod>2024-02-02T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://martiniradi.github.io/publication/microtransit/</loc>
+    <lastmod>2024-02-02T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://martiniradi.github.io/publication_types/</loc>
+    <lastmod>2024-02-02T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://martiniradi.github.io/publication/</loc>
+    <lastmod>2024-02-02T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>https://martiniradi.github.io/talk/design-and-operation-of-demand-responsive-microtransit/</loc>
     <lastmod>2023-10-15T14:15:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -10,24 +26,8 @@
     <lastmod>2023-10-15T14:15:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://martiniradi.github.io/publication-type/3/</loc>
-    <lastmod>2023-01-28T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>https://martiniradi.github.io/publication/alns23/</loc>
     <lastmod>2023-01-28T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://martiniradi.github.io/publication_types/</loc>
-    <lastmod>2023-01-28T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://martiniradi.github.io/publication/</loc>
-    <lastmod>2023-01-28T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://martiniradi.github.io/publication/microtransit/</loc>
-    <lastmod>2023-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://martiniradi.github.io/</loc>

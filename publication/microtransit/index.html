@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!-- This site was created with Wowchemy. https://www.wowchemy.com -->
-<!-- Last Published: January 28, 2024 --><html lang="en-us" >
+<!-- Last Published: February 5, 2024 --><html lang="en-us" >
 
 
 <head>
@@ -315,7 +315,7 @@
 
   
 
-<meta name="description" content="Microtransit offers opportunities to enhance urban mobility by combining the reliability of public transit and the flexibility of ride-sharing. This paper optimizes the design and operations of a demand-responsive microtransit system that relies on reference lines and performs on-demand deviations in response to passenger demand. We formulate a Microtransit Network Design (MiND) model via two-stage stochastic optimization. The model features a tight second-stage formulation thanks to a subpath-based representation of microtransit operations in a load-expanded network, which optimizes on-demand deviations between checkpoint stops. We develop a double-decomposition algorithm combining Benders decomposition and subpath-based column generation armed with a tailored label-setting algorithm. Using real-world data from Manhattan, results suggest that our method scales to large practical instances, with up to 100 candidate lines and hundreds of stops. Comparisons with transit and ride-sharing benchmarks suggest that microtransit provides win-win outcomes toward efficient mobility (high demand coverage, low operating costs, high level of service), equitable mobility (broad geographic reach) and sustainable mobility (limited environmental footprint)." />
+<meta name="description" content="Microtransit offers opportunities to enhance urban mobility by combining the reliability of public transit and the flexibility of ride-sharing. This paper optimizes the design and operations of a deviated fixed-route microtransit system that relies on reference lines but is allowed to deviate in response to passenger demand. We formulate a Microtransit Network Design (MiND) model via two-stage stochastic optimization. The model features a tight second-stage formulation thanks to a subpath-based representation of microtransit operations in a load-expanded network, which optimizes on-demand deviations between checkpoint stops. We develop a double-decomposition algorithm combining Benders decomposition and subpath-based column generation armed with a tailored label-setting algorithm. Using real-world data from Manhattan, results suggest that our method scales to large practical instances, with up to 10-100 candidate lines and hundreds of stations. Comparisons with transit and ride-sharing benchmarks suggest that microtransit can provide win-win outcomes toward efficient mobility (high demand coverage, low operating costs, high level of service), equitable mobility (broad geographic reach) and sustainable mobility (limited environmental footprint). We provide an open-source implementation in an online repository to enable replication." />
 
 
 
@@ -343,22 +343,21 @@
 
 
   
-  
 
 
 
 
 
 
-<meta property="twitter:card" content="summary" />
+<meta property="twitter:card" content="summary_large_image" />
 
   <meta property="twitter:site" content="@wowchemy" />
   <meta property="twitter:creator" content="@wowchemy" />
-<meta property="twitter:image" content="https://martiniradi.github.io/media/icon_huc2687f4b1d20c87780b4d77db9aeb25f_38841_512x512_fill_lanczos_center_3.png" />
+<meta property="twitter:image" content="https://martiniradi.github.io/publication/microtransit/featured.jpg" />
 <meta property="og:site_name" content="Bernardo Martin-Iradi" />
 <meta property="og:url" content="https://martiniradi.github.io/publication/microtransit/" />
-<meta property="og:title" content="Design and optimization of on-demand microtransit systems | Bernardo Martin-Iradi" />
-<meta property="og:description" content="Microtransit offers opportunities to enhance urban mobility by combining the reliability of public transit and the flexibility of ride-sharing. This paper optimizes the design and operations of a demand-responsive microtransit system that relies on reference lines and performs on-demand deviations in response to passenger demand. We formulate a Microtransit Network Design (MiND) model via two-stage stochastic optimization. The model features a tight second-stage formulation thanks to a subpath-based representation of microtransit operations in a load-expanded network, which optimizes on-demand deviations between checkpoint stops. We develop a double-decomposition algorithm combining Benders decomposition and subpath-based column generation armed with a tailored label-setting algorithm. Using real-world data from Manhattan, results suggest that our method scales to large practical instances, with up to 100 candidate lines and hundreds of stops. Comparisons with transit and ride-sharing benchmarks suggest that microtransit provides win-win outcomes toward efficient mobility (high demand coverage, low operating costs, high level of service), equitable mobility (broad geographic reach) and sustainable mobility (limited environmental footprint)." /><meta property="og:image" content="https://martiniradi.github.io/media/icon_huc2687f4b1d20c87780b4d77db9aeb25f_38841_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
+<meta property="og:title" content="Deviated Fixed-route Microtransit: Design and Operations | Bernardo Martin-Iradi" />
+<meta property="og:description" content="Microtransit offers opportunities to enhance urban mobility by combining the reliability of public transit and the flexibility of ride-sharing. This paper optimizes the design and operations of a deviated fixed-route microtransit system that relies on reference lines but is allowed to deviate in response to passenger demand. We formulate a Microtransit Network Design (MiND) model via two-stage stochastic optimization. The model features a tight second-stage formulation thanks to a subpath-based representation of microtransit operations in a load-expanded network, which optimizes on-demand deviations between checkpoint stops. We develop a double-decomposition algorithm combining Benders decomposition and subpath-based column generation armed with a tailored label-setting algorithm. Using real-world data from Manhattan, results suggest that our method scales to large practical instances, with up to 10-100 candidate lines and hundreds of stations. Comparisons with transit and ride-sharing benchmarks suggest that microtransit can provide win-win outcomes toward efficient mobility (high demand coverage, low operating costs, high level of service), equitable mobility (broad geographic reach) and sustainable mobility (limited environmental footprint). We provide an open-source implementation in an online repository to enable replication." /><meta property="og:image" content="https://martiniradi.github.io/publication/microtransit/featured.jpg" /><meta property="og:locale" content="en-us" />
 
   
     <meta
@@ -367,7 +366,7 @@
     />
   
   
-    <meta property="article:modified_time" content="2023-01-01T00:00:00&#43;00:00">
+    <meta property="article:modified_time" content="2024-02-02T00:00:00&#43;00:00">
   
 
 
@@ -393,14 +392,18 @@
     "@type": "WebPage",
     "@id": "https://martiniradi.github.io/publication/microtransit/"
   },
-  "headline": "Design and optimization of on-demand microtransit systems",
+  "headline": "Deviated Fixed-route Microtransit: Design and Operations",
+  
+  "image": [
+    "https://martiniradi.github.io/publication/microtransit/featured.jpg"
+  ],
   
   "datePublished": "2017-01-01T00:00:00Z",
-  "dateModified": "2023-01-01T00:00:00Z",
+  "dateModified": "2024-02-02T00:00:00Z",
   
   "author": {
     "@type": "Person",
-    "name": "Bernardo Martin-Iradi"
+    "name": "Kayla Cummings"
   },
   
   "publisher": {
@@ -411,7 +414,7 @@
       "url": "https://martiniradi.github.io/media/icon_huc2687f4b1d20c87780b4d77db9aeb25f_38841_192x192_fill_lanczos_center_3.png"
     }
   },
-  "description": "Microtransit offers opportunities to enhance urban mobility by combining the reliability of public transit and the flexibility of ride-sharing. This paper optimizes the design and operations of a demand-responsive microtransit system that relies on reference lines and performs on-demand deviations in response to passenger demand. We formulate a Microtransit Network Design (MiND) model via two-stage stochastic optimization. The model features a tight second-stage formulation thanks to a subpath-based representation of microtransit operations in a load-expanded network, which optimizes on-demand deviations between checkpoint stops. We develop a double-decomposition algorithm combining Benders decomposition and subpath-based column generation armed with a tailored label-setting algorithm. Using real-world data from Manhattan, results suggest that our method scales to large practical instances, with up to 100 candidate lines and hundreds of stops. Comparisons with transit and ride-sharing benchmarks suggest that microtransit provides win-win outcomes toward efficient mobility (high demand coverage, low operating costs, high level of service), equitable mobility (broad geographic reach) and sustainable mobility (limited environmental footprint)."
+  "description": "Microtransit offers opportunities to enhance urban mobility by combining the reliability of public transit and the flexibility of ride-sharing. This paper optimizes the design and operations of a deviated fixed-route microtransit system that relies on reference lines but is allowed to deviate in response to passenger demand. We formulate a Microtransit Network Design (MiND) model via two-stage stochastic optimization. The model features a tight second-stage formulation thanks to a subpath-based representation of microtransit operations in a load-expanded network, which optimizes on-demand deviations between checkpoint stops. We develop a double-decomposition algorithm combining Benders decomposition and subpath-based column generation armed with a tailored label-setting algorithm. Using real-world data from Manhattan, results suggest that our method scales to large practical instances, with up to 10-100 candidate lines and hundreds of stations. Comparisons with transit and ride-sharing benchmarks suggest that microtransit can provide win-win outcomes toward efficient mobility (high demand coverage, low operating costs, high level of service), equitable mobility (broad geographic reach) and sustainable mobility (limited environmental footprint). We provide an open-source implementation in an online repository to enable replication."
 }
 </script>
 
@@ -433,7 +436,7 @@
 
 
   
-  <title>Design and optimization of on-demand microtransit systems | Bernardo Martin-Iradi</title>
+  <title>Deviated Fixed-route Microtransit: Design and Operations | Bernardo Martin-Iradi</title>
 
   
   
@@ -752,18 +755,25 @@
 
 
 
-  
+
+
+
+
+
+
+
+
 
   
   
-  
+
+
 <div class="article-container pt-3">
-  <h1>Design and optimization of on-demand microtransit systems</h1>
+  <h1>Deviated Fixed-route Microtransit: Design and Operations</h1>
 
   
 
   
-    
 
 
 <div class="article-metadata">
@@ -775,10 +785,10 @@
   <div>
     
 
-  <span class="author-highlighted">
-      Bernardo Martin-Iradi</span>, <span >
+  <span >
       Kayla Cummings</span>, <span >
-      Alexandre Jacquillat</span>
+      Alexandre Jacquillat</span>, <span class="author-highlighted">
+      Bernardo Martin-Iradi</span>
   </div>
   
   
@@ -789,7 +799,7 @@
     
       
     
-    January, 2023
+    February, 2024
   </span>
   
 
@@ -807,13 +817,62 @@
 
 </div>
 
-    
+  
+
+
+
+
+<div class="btn-links mb-3">
+  
+  
+
+
+
 
 
 
 
 
   
+
+
+
+<a class="btn btn-outline-primary btn-page-header" href="/publication/microtransit/Microtransit.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header js-cite-modal"
+        data-filename="/publication/microtransit/cite.bib">
+  Cite
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+</div>
+
+
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 480px;">
+  <div style="position: relative">
+    <img src="/publication/microtransit/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_2165988_720x2500_fit_q75_h2_lanczos.webp" width="720" height="480" alt="" class="featured-image">
+    <span class="article-header-caption">Image credit: <a href="https://www.pexels.com/photo/timelapse-photography-of-city-1494582/" target="_blank" rel="noopener"><strong>Pexels</strong></a></span>
+  </div>
 </div>
 
 
@@ -822,7 +881,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract">Microtransit offers opportunities to enhance urban mobility by combining the reliability of public transit and the flexibility of ride-sharing. This paper optimizes the design and operations of a demand-responsive microtransit system that relies on reference lines and performs on-demand deviations in response to passenger demand. We formulate a Microtransit Network Design (MiND) model via two-stage stochastic optimization. The model features a tight second-stage formulation thanks to a subpath-based representation of microtransit operations in a load-expanded network, which optimizes on-demand deviations between checkpoint stops. We develop a double-decomposition algorithm combining Benders decomposition and subpath-based column generation armed with a tailored label-setting algorithm. Using real-world data from Manhattan, results suggest that our method scales to large practical instances, with up to 100 candidate lines and hundreds of stops. Comparisons with transit and ride-sharing benchmarks suggest that microtransit provides win-win outcomes toward efficient mobility (high demand coverage, low operating costs, high level of service), equitable mobility (broad geographic reach) and sustainable mobility (limited environmental footprint).</p>
+    <p class="pub-abstract">Microtransit offers opportunities to enhance urban mobility by combining the reliability of public transit and the flexibility of ride-sharing. This paper optimizes the design and operations of a deviated fixed-route microtransit system that relies on reference lines but is allowed to deviate in response to passenger demand. We formulate a Microtransit Network Design (MiND) model via two-stage stochastic optimization. The model features a tight second-stage formulation thanks to a subpath-based representation of microtransit operations in a load-expanded network, which optimizes on-demand deviations between checkpoint stops. We develop a double-decomposition algorithm combining Benders decomposition and subpath-based column generation armed with a tailored label-setting algorithm. Using real-world data from Manhattan, results suggest that our method scales to large practical instances, with up to 10-100 candidate lines and hundreds of stations. Comparisons with transit and ride-sharing benchmarks suggest that microtransit can provide win-win outcomes toward efficient mobility (high demand coverage, low operating costs, high level of service), equitable mobility (broad geographic reach) and sustainable mobility (limited environmental footprint). We provide an open-source implementation in an online repository to enable replication.</p>
     
 
     
@@ -850,7 +909,7 @@
       <div class="col-md-10">
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Publication</div>
-          <div class="col-12 col-md-9">In preparation</div>
+          <div class="col-12 col-md-9">Submitted to <em>Operations Research</em></div>
         </div>
       </div>
       <div class="col-md-1"></div>
@@ -904,7 +963,7 @@ Supplementary notes can be added here, including [code, math, and images](https:
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fmartiniradi.github.io%2Fpublication%2Fmicrotransit%2F&amp;text=Design&#43;and&#43;optimization&#43;of&#43;on-demand&#43;microtransit&#43;systems" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
+        <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fmartiniradi.github.io%2Fpublication%2Fmicrotransit%2F&amp;text=Deviated&#43;Fixed-route&#43;Microtransit%3A&#43;Design&#43;and&#43;Operations" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -921,7 +980,7 @@ Supplementary notes can be added here, including [code, math, and images](https:
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fmartiniradi.github.io%2Fpublication%2Fmicrotransit%2F&amp;t=Design&#43;and&#43;optimization&#43;of&#43;on-demand&#43;microtransit&#43;systems" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fmartiniradi.github.io%2Fpublication%2Fmicrotransit%2F&amp;t=Deviated&#43;Fixed-route&#43;Microtransit%3A&#43;Design&#43;and&#43;Operations" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -940,7 +999,7 @@ Supplementary notes can be added here, including [code, math, and images](https:
         
       
       <li>
-        <a href="mailto:?subject=Design%20and%20optimization%20of%20on-demand%20microtransit%20systems&amp;body=https%3A%2F%2Fmartiniradi.github.io%2Fpublication%2Fmicrotransit%2F" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
+        <a href="mailto:?subject=Deviated%20Fixed-route%20Microtransit%3A%20Design%20and%20Operations&amp;body=https%3A%2F%2Fmartiniradi.github.io%2Fpublication%2Fmicrotransit%2F" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -957,7 +1016,7 @@ Supplementary notes can be added here, including [code, math, and images](https:
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fmartiniradi.github.io%2Fpublication%2Fmicrotransit%2F&amp;title=Design&#43;and&#43;optimization&#43;of&#43;on-demand&#43;microtransit&#43;systems" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
+        <a href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fmartiniradi.github.io%2Fpublication%2Fmicrotransit%2F&amp;title=Deviated&#43;Fixed-route&#43;Microtransit%3A&#43;Design&#43;and&#43;Operations" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -974,7 +1033,7 @@ Supplementary notes can be added here, including [code, math, and images](https:
       
       
       <li>
-        <a href="whatsapp://send?text=Design&#43;and&#43;optimization&#43;of&#43;on-demand&#43;microtransit&#43;systems%20https%3A%2F%2Fmartiniradi.github.io%2Fpublication%2Fmicrotransit%2F" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
+        <a href="whatsapp://send?text=Deviated&#43;Fixed-route&#43;Microtransit%3A&#43;Design&#43;and&#43;Operations%20https%3A%2F%2Fmartiniradi.github.io%2Fpublication%2Fmicrotransit%2F" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -991,7 +1050,7 @@ Supplementary notes can be added here, including [code, math, and images](https:
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=https%3A%2F%2Fmartiniradi.github.io%2Fpublication%2Fmicrotransit%2F&amp;title=Design&#43;and&#43;optimization&#43;of&#43;on-demand&#43;microtransit&#43;systems" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
+        <a href="https://service.weibo.com/share/share.php?url=https%3A%2F%2Fmartiniradi.github.io%2Fpublication%2Fmicrotransit%2F&amp;title=Deviated&#43;Fixed-route&#43;Microtransit%3A&#43;Design&#43;and&#43;Operations" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -1010,6 +1069,18 @@ Supplementary notes can be added here, including [code, math, and images](https:
 
 
   
+  
+    
+
+
+
+
+  
+    
+
+
+
+
   
     
 
@@ -1119,18 +1190,6 @@ Supplementary notes can be added here, including [code, math, and images](https:
 
     </div>
   </div>
-
-
-  
-    
-
-
-
-
-  
-    
-
-
 
 
   

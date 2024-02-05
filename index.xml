@@ -13,6 +13,33 @@
     </image>
     
     <item>
+      <title>Deviated Fixed-route Microtransit: Design and Operations</title>
+      <link>https://martiniradi.github.io/publication/microtransit/</link>
+      <pubDate>Fri, 02 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://martiniradi.github.io/publication/microtransit/</guid>
+      <description>&lt;!-- 
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Design and Operation of Demand-Responsive Microtransit</title>
       <link>https://martiniradi.github.io/talk/design-and-operation-of-demand-responsive-microtransit/</link>
       <pubDate>Sun, 15 Oct 2023 14:15:00 +0000</pubDate>
@@ -41,33 +68,6 @@ Further event details, including [page elements](https://wowchemy.com/docs/writi
       <link>https://martiniradi.github.io/publication/alns23/</link>
       <pubDate>Sat, 28 Jan 2023 00:00:00 +0000</pubDate>
       <guid>https://martiniradi.github.io/publication/alns23/</guid>
-      <description>&lt;!-- 
-
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-  &lt;/div&gt;
-&lt;/div&gt;
-
-
-
-
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
-  &lt;/div&gt;
-&lt;/div&gt;
-
-
-Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Design and optimization of on-demand microtransit systems</title>
-      <link>https://martiniradi.github.io/publication/microtransit/</link>
-      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>https://martiniradi.github.io/publication/microtransit/</guid>
       <description>&lt;!-- 
 
 &lt;div class=&#34;alert alert-note&#34;&gt;
@@ -328,7 +328,7 @@ data.head()
 
 
 
-&lt;div id=&#34;chart-538792146&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-463219758&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -338,7 +338,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-538792146&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-463219758&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
