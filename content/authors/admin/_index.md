@@ -27,6 +27,9 @@ organizations:
   - name: ETH Zurich - Institute for Transport Planning and Systems
     url: https://www.ivt.ethz.ch/en/
 
+# Short bio (displayed in user profile at end of posts)
+bio: Passionate about optimization in transportation and logistics.
+
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
@@ -202,14 +205,14 @@ awards:
     url: https://www.ivt.ethz.ch/en/info/news/2025/06/verolog-doctoral-dissertation-prize.html
     date: '2025-06-17'
     awarder: EURO working group on Vehicle Routing and Logistics optimization (VeRoLog) 
-    icon: custom/award
+    icon: "custom/award"
     summary: |
       The prize distinguishes an outstanding PhD thesis on Operational Research methods applied to Vehicle Routing and Logistics Optimization.
   - title: Best academic record in the MSc in Industrial Engineering specialized in Management
     url: https://upcommons.upc.edu/handle/2117/331428
     date: '2018-10-18'
     awarder: ETSEIB, UPC-BarcelonaTech 
-    icon: custom/award
+    icon: "custom/award"
     summary: |
       Award sponsored by *Accenture* to the student with the best academic record of the year.    
 ---
@@ -219,4 +222,4 @@ awards:
 I am a postdoctoral researcher in <a href="https://www.ivt.ethz.ch/en/people/profile.francesco-corman.html" target="_blank" rel="noopener"> Prof. Francesco Corman's</a> group at the <a href="https://www.ivt.ethz.ch/en/" target="_blank" rel="noopener"> Institute for Transport Planning and Systems (IVT)</a> at <a href="https://ethz.ch/de.html" target="_blank" rel="noopener"> ETH Zurich</a>. 
 Prior to this, I conducted my doctoral studies in Operations Research at <a href="https://www.dtu.dk/english/" target="_blank" rel="noopener">DTU</a>, advised by <a href="https://orbit.dtu.dk/en/persons/dario-pacino" target="_blank" rel="noopener">Prof. Dario Pacino</a> and <a href="https://orbit.dtu.dk/en/persons/stefan-r%C3%B8pke" target="_blank" rel="noopener">Prof. Stefan Ropke</a>, which included a research stay at the <a href="https://mitsloan.mit.edu/" target="_blank" rel="noopener">MIT Sloan School of Management</a>, hosted by <a href="https://mitsloan.mit.edu/faculty/directory/alexandre-jacquillat" target="_blank" rel="noopener">Prof. Alexandre Jacquillat</a>.
 In my research, I develop decomposition-based methods for large-scale optimization applied to transportation and logistics. My current projects involve collaborative maritime logistics and on-demand public transit systems.
-<!-- {style="text-align: justify;"} -->
+{style="text-align: justify;"}
