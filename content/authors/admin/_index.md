@@ -136,7 +136,7 @@ work:
   - position: Lecturer - 101-0467-01L Transport Systems
     company_name: ETH - Institute for Transport Planning and Systems
     company_url: ''
-    company_logo: icons/org-eth
+    company_logo: icons/org-eth.svg
     location: ''
     date_start: '2024-09-01'
     date_end: '2025-02-15'
@@ -145,7 +145,7 @@ work:
   - position: Teaching assistant - 101-0467-01L Transport Systems
     company_name: ETH - Institute for Transport Planning and Systems
     company_url: ''
-    company_logo: 'icons/org-eth'
+    company_logo: 'icons/org-eth.svg'
     location: ''
     date_start: '2023-09-20'
     date_end: '2024-02-15'
@@ -154,7 +154,7 @@ work:
   - position: Teaching assistant - 101-0427-01L Public Transport Design and Operations
     company_name: ETH - Institute for Transport Planning and Systems
     company_url: ''
-    company_logo: 'org-eth'
+    company_logo: 'org-eth.svg'
     location: ''
     date_start: '2023-09-20'
     date_end: '2025-02-15'
@@ -163,7 +163,7 @@ work:
   - position: Main lecturer - 42380 Supply Chain Analytics
     company_name: DTU Management
     company_url: ''
-    company_logo: org-dtu
+    company_logo: "icons/org-dtu.svg"
     location: ''
     date_start: '2023-02-01'
     date_end: '2023-05-31'
@@ -172,7 +172,7 @@ work:
   - position: Teaching Assistant - 42137 Optimization using metaheuristics
     company_name: DTU Management
     company_url: ''
-    company_logo: org-dtu
+    company_logo: "icons/org-dtu"
     location: ''
     date_start: '2021-01-25'
     date_end: '2021-05-25'
