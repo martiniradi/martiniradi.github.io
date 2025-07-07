@@ -25,9 +25,9 @@ main:
   # - name: Teaching
   #   url: teaching/
   #   weight: 40
-    - name: Publications
-    url: '#publications'
-    weight: 50
+  - name: Publications
+  url: '#publications'
+  weight: 50
   # - name: Contact
   #   url: '#contact'
   #   weight: 60
