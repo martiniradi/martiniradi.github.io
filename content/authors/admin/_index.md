@@ -92,19 +92,24 @@ education:
   #     - lorem ipsum dolor sit amet, consectetur adipiscing elit
     - area: PhD in Operations Research
       institution: Technical University of Denmark DTU
-      year: 2023
+      date_start: '2023-01-30'
+      date_end: '2019-12-01'
     - area: Visiting PhD student
       institution: Massachusetts Institute of Technology MIT
-      year: 2022
+      date_start: '2022-01-01'
+      date_end: '2022-06-15'
     - area: MSc in Industrial Engineering and Management
       institution: Technical University of Denmark DTU
-      year: 2018
+      date_start: '2016-09-01'
+      date_end: '2018-07-15'
     - area: MSc in Industrial Engineering
       institution: Polytechnical University of Catalonia (UPC-BarcelonaTech)
-      year: 2018
+      date_start: '2015-09-01'
+      date_end: '2018-07-15'
     - area: BSc in Industrial Technology Engineering
       institution: Polytechnical University of Catalonia (UPC-BarcelonaTech)
-      year: 2015
+      date_start: '2011-09-01'
+      date_end: '2015-08-15'
 work:
   # - position: Director of Cloud Infrastructure
   #   company_name: GenCoin
@@ -129,27 +134,27 @@ work:
   #     - lorem ipsum dolor sit amet, consectetur adipiscing elit
   #     - lorem ipsum dolor sit amet, consectetur adipiscing elit
   - position: Lecturer - 101-0467-01L Transport Systems
-    company_name: Institute for Transport Planning and Systems
+    company_name: ETH - Institute for Transport Planning and Systems
     company_url: ''
-    company_logo: org-eth
+    company_logo: icons/org-eth
     location: ''
     date_start: '2024-09-01'
     date_end: '2025-02-15'
     summary: In charge of giving lectures and preparing and correcting exams
 
   - position: Teaching assistant - 101-0467-01L Transport Systems
-    company_name: Institute for Transport Planning and Systems
+    company_name: ETH - Institute for Transport Planning and Systems
     company_url: ''
-    company_logo: org-eth
+    company_logo: 'icons/org-eth'
     location: ''
     date_start: '2023-09-20'
     date_end: '2024-02-15'
     summary: Assignment and exam presentation and correction
 
   - position: Teaching assistant - 101-0427-01L Public Transport Design and Operations
-    company_name: Institute for Transport Planning and Systems
+    company_name: ETH - Institute for Transport Planning and Systems
     company_url: ''
-    company_logo: org-eth
+    company_logo: 'org-eth'
     location: ''
     date_start: '2023-09-20'
     date_end: '2025-02-15'
