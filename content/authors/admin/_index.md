@@ -105,29 +105,100 @@ education:
     - area: BSc in Industrial Technology Engineering
       institution: Polytechnical University of Catalonia (UPC-BarcelonaTech)
       year: 2015
-# work:
-#   - position: Director of Cloud Infrastructure
-#     company_name: GenCoin
-#     company_url: ''
-#     company_logo: ''
-#     date_start: 2021-01-01
-#     date_end: ''
-#     summary: |2-
-#       Responsibilities include:
-#       - lorem ipsum dolor sit amet, consectetur adipiscing elit
-#       - lorem ipsum dolor sit amet, consectetur adipiscing elit
-#       - lorem ipsum dolor sit amet, consectetur adipiscing elit
-#   - position: Backend Software Engineer
-#     company_name: X
-#     company_url: ''
-#     company_logo: ''
-#     date_start: 2016-01-01
-#     date_end: 2020-12-31
-#     summary: |
-#       Responsibilities include:
-#       - Migrated infrastructure to a new data center
-#       - lorem ipsum dolor sit amet, consectetur adipiscing elit
-#       - lorem ipsum dolor sit amet, consectetur adipiscing elit
+work:
+  # - position: Director of Cloud Infrastructure
+  #   company_name: GenCoin
+  #   company_url: ''
+  #   company_logo: ''
+  #   date_start: 2021-01-01
+  #   date_end: ''
+  #   summary: |2-
+  #     Responsibilities include:
+  #     - lorem ipsum dolor sit amet, consectetur adipiscing elit
+  #     - lorem ipsum dolor sit amet, consectetur adipiscing elit
+  #     - lorem ipsum dolor sit amet, consectetur adipiscing elit
+  # - position: Backend Software Engineer
+  #   company_name: X
+  #   company_url: ''
+  #   company_logo: ''
+  #   date_start: 2016-01-01
+  #   date_end: 2020-12-31
+  #   summary: |
+  #     Responsibilities include:
+  #     - Migrated infrastructure to a new data center
+  #     - lorem ipsum dolor sit amet, consectetur adipiscing elit
+  #     - lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - position: Lecturer - 101-0467-01L Transport Systems
+    company_name: Institute for Transport Planning and Systems
+    company_url: ''
+    company_logo: org-eth
+    location: ''
+    date_start: '2024-09-01'
+    date_end: '2025-02-15'
+    summary: In charge of giving lectures and preparing and correcting exams
+
+  - position: Teaching assistant - 101-0467-01L Transport Systems
+    company_name: Institute for Transport Planning and Systems
+    company_url: ''
+    company_logo: org-eth
+    location: ''
+    date_start: '2023-09-20'
+    date_end: '2024-02-15'
+    summary: Assignment and exam presentation and correction
+
+  - position: Teaching assistant - 101-0427-01L Public Transport Design and Operations
+    company_name: Institute for Transport Planning and Systems
+    company_url: ''
+    company_logo: org-eth
+    location: ''
+    date_start: '2023-09-20'
+    date_end: '2025-02-15'
+    summary: Assistance in exercise and assignments sessions
+
+  - position: Main lecturer - 42380 Supply Chain Analytics
+    company_name: DTU Management
+    company_url: ''
+    company_logo: org-dtu
+    location: ''
+    date_start: '2023-02-01'
+    date_end: '2023-05-31'
+    summary: In charge of giving lectures, managing and correcting assignments and exercises for 150+ students 
+
+  - position: Teaching Assistant - 42137 Optimization using metaheuristics
+    company_name: DTU Management
+    company_url: ''
+    company_logo: org-dtu
+    location: ''
+    date_start: '2021-01-25'
+    date_end: '2021-05-25'
+    summary: Supervised and assisted students during exercise lectures
+
+  - position: Lecturer - 42117 Transport Optimization 
+    company_name: DTU Management
+    company_url: ''
+    company_logo: org-dtu
+    location: ''
+    date_start: '2020-11-25'
+    date_end: '2020-11-25'
+    summary: Gave a lecture in optimization in maritime logistics
+
+  - position: Teaching Assistant - 42136 Large Scale Optimization using Decomposition
+    company_name: DTU Management
+    company_url: ''
+    company_logo: org-dtu
+    location: ''
+    date_start: '2018-01-25'
+    date_end: '2018-05-25'
+    summary: Supervised and assisted students during exercise lectures
+  
+  - position: Teaching Assistant - 42101 Introduction to Management Science
+    company_name: DTU Management
+    company_url: ''
+    company_logo: org-dtu
+    location: ''
+    date_start: '2017-08-25'
+    date_end: '2017-12-25'
+    summary: Supervised and assisted students during exercise lectures
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
@@ -205,14 +276,14 @@ awards:
     url: https://www.ivt.ethz.ch/en/info/news/2025/06/verolog-doctoral-dissertation-prize.html
     date: '2025-06-17'
     awarder: EURO working group on Vehicle Routing and Logistics optimization (VeRoLog) 
-    icon: "custom/award"
+    icon: award
     summary: |
       The prize distinguishes an outstanding PhD thesis on Operational Research methods applied to Vehicle Routing and Logistics Optimization.
   - title: Best academic record in the MSc in Industrial Engineering specialized in Management
     url: https://upcommons.upc.edu/handle/2117/331428
     date: '2018-10-18'
     awarder: ETSEIB, UPC-BarcelonaTech 
-    icon: "custom/award"
+    icon: award
     summary: |
       Award sponsored by *Accenture* to the student with the best academic record of the year.    
 ---
