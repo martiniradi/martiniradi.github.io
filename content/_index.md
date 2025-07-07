@@ -127,7 +127,7 @@ sections:
 
 
   - block: collection
-    id: teaching
+    # id: courses
     content:
       title: Teaching Experience
       # Date format for experience
