@@ -276,14 +276,17 @@ sections:
   #         url:
   #   design:
   #     columns: '2'
-  - block: markdown
-    id: contact
+  - block: cta-button-list
     content:
-      title: Contact
-      text: 
-            [bernardo.martin-iradi@ivt.baug.ethz.ch](mailto:bernardo.martin-iradi@ivt.baug.ethz.ch) \\
-
-            Stefano-Franscini-Platz 5, 8046 Zurich, Switzerland
+      # Need a custom icon?
+      # Add an SVG image to the `assets/media/icons/` folder and reference it in the `icon` field below
+      buttons:
+        - text: E-mail me
+          icon: at-symbol
+          url: mailto:bernardo.martin-iradi@ivt.baug.ethz.ch
+        - text: Stefano-Franscini-Platz 5, 8046 Zurich, Switzerland
+          icon: custom/address
+          url: https://youtube.com
   # - block: contact
   #   id: contact
   #   content:
