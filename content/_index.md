@@ -286,7 +286,7 @@ sections:
           url: mailto:bernardo.martin-iradi@ivt.baug.ethz.ch
         - text: Stefano-Franscini-Platz 5, 8046 Zurich, Switzerland
           icon: custom/address
-          url: https://youtube.com
+          url: https://maps.app.goo.gl/gruHwRVyJv1jBxMj7
   # - block: contact
   #   id: contact
   #   content:
