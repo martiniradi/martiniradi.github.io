@@ -137,7 +137,6 @@ work:
     company_name: ETH - Institute for Transport Planning and Systems
     company_url: ''
     company_logo: icons/org-eth.svg
-    icon: "org-eth"
     location: ''
     date_start: '2024-09-01'
     date_end: '2025-02-15'
@@ -147,7 +146,6 @@ work:
     company_name: ETH - Institute for Transport Planning and Systems
     company_url: ''
     company_logo: 'icons/org-eth.svg'
-    icon: 'org-eth.svg'
     location: ''
     date_start: '2023-09-20'
     date_end: '2024-02-15'
@@ -157,7 +155,6 @@ work:
     company_name: ETH - Institute for Transport Planning and Systems
     company_url: ''
     company_logo: 'org-eth'
-    icon: 'org-eth'
     location: ''
     date_start: '2023-09-20'
     date_end: '2025-02-15'
