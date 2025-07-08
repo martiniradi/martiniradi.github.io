@@ -281,14 +281,14 @@ awards:
     url: https://www.ivt.ethz.ch/en/info/news/2025/06/verolog-doctoral-dissertation-prize.html
     date: '2025-06-17'
     awarder: EURO working group on Vehicle Routing and Logistics optimization (VeRoLog) 
-    icon: custom/award
+    icon: custom/address
     summary: |
       The prize distinguishes an outstanding PhD thesis on Operational Research methods applied to Vehicle Routing and Logistics Optimization.
   - title: Best academic record in the MSc in Industrial Engineering specialized in Management
     url: https://upcommons.upc.edu/handle/2117/331428
     date: '2018-10-18'
     awarder: ETSEIB, UPC-BarcelonaTech 
-    icon: custom/award
+    icon: custom/org-eth
     summary: |
       Award sponsored by *Accenture* to the student with the best academic record of the year.    
 ---

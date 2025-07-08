@@ -278,6 +278,7 @@ sections:
   #     columns: '2'
   - block: cta-button-list
     content:
+      title: Contact
       # Need a custom icon?
       # Add an SVG image to the `assets/media/icons/` folder and reference it in the `icon` field below
       buttons:
@@ -285,7 +286,7 @@ sections:
           icon: at-symbol
           url: mailto:bernardo.martin-iradi@ivt.baug.ethz.ch
         - text: Stefano-Franscini-Platz 5, 8046 Zurich, Switzerland
-          icon: custom/address
+          icon: custom/award
           url: https://maps.app.goo.gl/gruHwRVyJv1jBxMj7
   # - block: contact
   #   id: contact
