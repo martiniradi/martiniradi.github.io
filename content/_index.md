@@ -36,6 +36,8 @@ sections:
     content:
       title: Publications
       text: ""
+      # Choose how many pages you would like to display (0 = all pages)
+      count: 0
       filters:
         folders:
           - publication

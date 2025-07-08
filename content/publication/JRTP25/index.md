@@ -15,7 +15,7 @@ authors:
 #   - 'Equal contribution'
 
 date: '2025-05-30T00:00:00Z'
-doi: 'https://doi.org/10.1016/j.ejor.2021.04.041'
+# doi: 'https://doi.org/10.1016/j.ejor.2021.04.041'
 
 # Schedule page publish date (NOT publication's date).
 publishDate: '2017-01-01T00:00:00Z'
