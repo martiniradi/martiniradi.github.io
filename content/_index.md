@@ -281,7 +281,7 @@ sections:
     content:
       title: Contact
       text: 
-            mailto:bernardo.martin-iradi@ivt.baug.ethz.ch 
+            [bernardo.martin-iradi@ivt.baug.ethz.ch](mailto:bernardo.martin-iradi@ivt.baug.ethz.ch) \\
 
             Stefano-Franscini-Platz 5, 8046 Zurich, Switzerland
   # - block: contact
