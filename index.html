@@ -147,6 +147,23 @@
         </div>
     </footer>
 
+    <!-- Citation Modal -->
+    <div id="citation-modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Citation (BibTeX)</h3>
+                <button class="modal-close" onclick="closeCitationModal()">&times;</button>
+            </div>
+            <div class="modal-body">
+                <pre id="citation-text"></pre>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-primary" onclick="copyCitation(event)">Copy to Clipboard</button>
+                <button class="btn btn-secondary" onclick="closeCitationModal()">Close</button>
+            </div>
+        </div>
+    </div>
+
     <script src="data/publications.js"></script>
     <script src="data/experience.js"></script>
     <script src="data/awards.js"></script>

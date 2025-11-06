@@ -75,7 +75,7 @@ function renderAwards() {
 function renderPublications() {
     const container = document.getElementById('publications-list');
 
-    publicationsData.forEach(pub => {
+    publicationsData.forEach((pub) => {
         const div = document.createElement('div');
         div.className = 'publication-card';
 
@@ -89,7 +89,7 @@ function renderPublications() {
         }
 
         if (pub.cite) {
-            links.push(`<a href="${pub.cite}" download class="publication-link">Cite (BibTeX)</a>`);
+            links.push(`<a href="javascript:void(0)" onclick="showCitation('${pub.cite}')" class="publication-link">Cite (BibTeX)</a>`);
         }
 
         if (links.length > 0) {
@@ -106,6 +106,63 @@ function renderPublications() {
         container.appendChild(div);
     });
 }
+
+// Citation modal functions
+function showCitation(bibPath) {
+    const modal = document.getElementById('citation-modal');
+    const citationText = document.getElementById('citation-text');
+
+    // Fetch and display BibTeX content
+    fetch(bibPath)
+        .then(response => response.text())
+        .then(text => {
+            citationText.textContent = text;
+            modal.classList.add('show');
+            document.body.style.overflow = 'hidden'; // Prevent background scrolling
+        })
+        .catch(() => {
+            citationText.textContent = 'Error loading citation. Please try again.';
+            modal.classList.add('show');
+        });
+}
+
+function closeCitationModal() {
+    const modal = document.getElementById('citation-modal');
+    modal.classList.remove('show');
+    document.body.style.overflow = ''; // Restore scrolling
+}
+
+function copyCitation(event) {
+    const citationText = document.getElementById('citation-text').textContent;
+    navigator.clipboard.writeText(citationText).then(() => {
+        // Show feedback
+        const btn = event.target;
+        const originalText = btn.textContent;
+        btn.textContent = 'Copied!';
+        btn.style.backgroundColor = '#059669';
+        setTimeout(() => {
+            btn.textContent = originalText;
+            btn.style.backgroundColor = '';
+        }, 2000);
+    }).catch(() => {
+        alert('Failed to copy citation. Please select and copy manually.');
+    });
+}
+
+// Close modal when clicking outside
+document.addEventListener('click', function(event) {
+    const modal = document.getElementById('citation-modal');
+    if (event.target === modal) {
+        closeCitationModal();
+    }
+});
+
+// Close modal with Escape key
+document.addEventListener('keydown', function(event) {
+    if (event.key === 'Escape') {
+        closeCitationModal();
+    }
+});
 
 // Smooth scrolling for navigation links
 document.querySelectorAll('.nav-link').forEach(link => {
