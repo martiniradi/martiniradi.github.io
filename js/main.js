@@ -79,11 +79,18 @@ function renderPublications() {
         const div = document.createElement('div');
         div.className = 'publication-card';
 
+        let linksHtml = '';
+        if (pub.url) {
+            linksHtml = `<div class="publication-links"><a href="${pub.url}" target="_blank" rel="noopener" class="publication-link">View Publication →</a></div>`;
+        } else if (pub.preprint) {
+            linksHtml = `<div class="publication-links"><a href="${pub.preprint}" target="_blank" rel="noopener" class="publication-link">View Preprint →</a></div>`;
+        }
+
         div.innerHTML = `
             <h3 class="publication-title">${pub.title}</h3>
             <div class="publication-authors">${pub.authors}</div>
             <div class="publication-venue">${pub.venue}, ${pub.year}</div>
-            ${pub.url ? `<div class="publication-links"><a href="${pub.url}" target="_blank" rel="noopener" class="publication-link">View Publication →</a></div>` : ''}
+            ${linksHtml}
         `;
 
         container.appendChild(div);

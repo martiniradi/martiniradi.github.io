@@ -5,7 +5,8 @@ const publicationsData = [
         venue: "Major revision in Operations Research",
         year: "2025",
         date: "2025-06-04",
-        url: ""
+        url: "",
+        preprint: "assets/publications/Microtransit.pdf"
     },
     {
         title: "Optimizing Periodic Stability in Railway Timetables: A Microscopic Model for Networks with a Macroscopic Comparison",
@@ -13,7 +14,8 @@ const publicationsData = [
         venue: "Accepted in Journal of Rail Transport Planning & Management",
         year: "2025",
         date: "2025-05-30",
-        url: ""
+        url: "",
+        preprint: "assets/publications/JRTP25.pdf"
     },
     {
         title: "Solving Integrated Periodic Railway Timetabling with Satisfiability Modulo Theories: A Scalable Approach to Routing and Vehicle Circulation",
@@ -21,7 +23,8 @@ const publicationsData = [
         venue: "Major revision in European Journal of Operational Research",
         year: "2025",
         date: "2025-05-20",
-        url: ""
+        url: "",
+        preprint: "assets/publications/EJOR25.pdf"
     },
     {
         title: "An Adaptive Large Neighborhood Search Heuristic for The Multiport Continuous Berth Allocation Problem",
