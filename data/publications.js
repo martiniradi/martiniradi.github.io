@@ -13,11 +13,12 @@ const publicationsData = [
     {
         title: "Optimizing Periodic Stability in Railway Timetables: A Microscopic Model for Networks with a Macroscopic Comparison",
         authors: "Florian Fuchs, Bernardo Martin-Iradi, Francesco Corman",
-        venue: "Accepted in Journal of Rail Transport Planning & Management",
+        venue: "Journal of Rail Transport Planning & Management",
         year: "2025",
         date: "2025-05-30",
-        url: "",
-        preprint: "assets/publications/JRTP25.pdf",
+        doi: "https://doi.org/10.1016/j.jrtpm.2025.100555",
+        url: "https://doi.org/10.1016/j.jrtpm.2025.100555",
+        // preprint: "assets/publications/JRTP25.pdf",
         cite: "assets/citations/JRTP25.bib",
         awards: [
             "2nd Best-paper Award and 1st Prize Young Research Award (Florian Fuchs) at RailDresden 2025",
