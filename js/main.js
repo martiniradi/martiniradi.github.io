@@ -80,10 +80,20 @@ function renderPublications() {
         div.className = 'publication-card';
 
         let linksHtml = '';
+        const links = [];
+
         if (pub.url) {
-            linksHtml = `<div class="publication-links"><a href="${pub.url}" target="_blank" rel="noopener" class="publication-link">View Publication →</a></div>`;
+            links.push(`<a href="${pub.url}" target="_blank" rel="noopener" class="publication-link">View Publication →</a>`);
         } else if (pub.preprint) {
-            linksHtml = `<div class="publication-links"><a href="${pub.preprint}" target="_blank" rel="noopener" class="publication-link">View Preprint →</a></div>`;
+            links.push(`<a href="${pub.preprint}" target="_blank" rel="noopener" class="publication-link">View Preprint →</a>`);
+        }
+
+        if (pub.cite) {
+            links.push(`<a href="${pub.cite}" download class="publication-link">Cite (BibTeX)</a>`);
+        }
+
+        if (links.length > 0) {
+            linksHtml = `<div class="publication-links">${links.join(' | ')}</div>`;
         }
 
         div.innerHTML = `
