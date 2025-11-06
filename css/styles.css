@@ -279,6 +279,30 @@ a:hover {
     color: var(--primary-color);
 }
 
+.publication-awards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 0.75rem;
+}
+
+.award-badge {
+    display: inline-block;
+    padding: 0.375rem 0.75rem;
+    background: linear-gradient(135deg, #fbbf24 0%, #f59e0b 100%);
+    color: #78350f;
+    font-size: 0.8rem;
+    font-weight: 600;
+    border-radius: 0.375rem;
+    box-shadow: 0 2px 4px rgba(251, 191, 36, 0.2);
+    transition: all 0.2s;
+}
+
+.award-badge:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(251, 191, 36, 0.3);
+}
+
 /* Timeline */
 .timeline {
     position: relative;

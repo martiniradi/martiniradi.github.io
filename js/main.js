@@ -96,10 +96,19 @@ function renderPublications() {
             linksHtml = `<div class="publication-links">${links.join(' | ')}</div>`;
         }
 
+        let awardsHtml = '';
+        if (pub.awards && pub.awards.length > 0) {
+            const awardBadges = pub.awards.map(award =>
+                `<span class="award-badge">${award}</span>`
+            ).join('');
+            awardsHtml = `<div class="publication-awards">${awardBadges}</div>`;
+        }
+
         div.innerHTML = `
             <h3 class="publication-title">${pub.title}</h3>
             <div class="publication-authors">${pub.authors}</div>
             <div class="publication-venue">${pub.venue}, ${pub.year}</div>
+            ${awardsHtml}
             ${linksHtml}
         `;
 

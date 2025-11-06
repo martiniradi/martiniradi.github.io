@@ -7,7 +7,8 @@ const publicationsData = [
         date: "2025-06-04",
         url: "",
         preprint: "assets/publications/Microtransit.pdf",
-        cite: "assets/citations/Microtransit.bib"
+        cite: "assets/citations/Microtransit.bib",
+        awards: ["Finalist of the 2025 Transportation Science & Logistics Society Best Student Paper Award"]
     },
     {
         title: "Optimizing Periodic Stability in Railway Timetables: A Microscopic Model for Networks with a Macroscopic Comparison",
@@ -17,7 +18,11 @@ const publicationsData = [
         date: "2025-05-30",
         url: "",
         preprint: "assets/publications/JRTP25.pdf",
-        cite: "assets/citations/JRTP25.bib"
+        cite: "assets/citations/JRTP25.bib",
+        awards: [
+            "2nd Best-paper Award and 1st Prize Young Research Award (Florian Fuchs) at RailDresden 2025",
+            "Honorable mention at the 2025 RAS Student Paper Competition at INFORMS '25"
+        ]
     },
     {
         title: "Solving Integrated Periodic Railway Timetabling with Satisfiability Modulo Theories: A Scalable Approach to Routing and Vehicle Circulation",
@@ -47,7 +52,8 @@ const publicationsData = [
         date: "2022-02-04",
         doi: "https://doi.org/10.1287/trsc.2021.1112",
         url: "https://doi.org/10.1287/trsc.2021.1112",
-        cite: "assets/citations/TS2022.bib"
+        cite: "assets/citations/TS2022.bib",
+        awards: ["Best presentation Award at the 5th AIRO Young workshop, 2021"]
     },
     {
         title: "A column-generation based matheuristic for periodic and symmetric train timetabling with integrated passenger routing",
