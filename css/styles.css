@@ -262,6 +262,11 @@ a:hover {
     font-size: 0.9rem;
 }
 
+.author-highlight {
+    color: var(--text-primary);
+    font-weight: 600;
+}
+
 .publication-venue {
     color: var(--text-secondary);
     font-style: italic;

@@ -110,9 +110,15 @@ function renderPublications() {
             awardsHtml = `<div class="publication-awards">${awardBadges}</div>`;
         }
 
+        // Highlight user's name in authors list
+        const highlightedAuthors = pub.authors.replace(
+            /Bernardo Martin-Iradi/g,
+            '<strong class="author-highlight">Bernardo Martin-Iradi</strong>'
+        );
+
         div.innerHTML = `
             <h3 class="publication-title">${pub.title}</h3>
-            <div class="publication-authors">${pub.authors}</div>
+            <div class="publication-authors">${highlightedAuthors}</div>
             <div class="publication-venue">${pub.venue}, ${pub.year}</div>
             ${awardsHtml}
             ${linksHtml}
