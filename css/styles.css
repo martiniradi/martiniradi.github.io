@@ -559,8 +559,16 @@ body.dark-mode .award-badge-link:hover {
     filter: brightness(0) saturate(100%);
 }
 
+body.dark-mode .award-icon img {
+    filter: brightness(0) saturate(100%) invert(1);
+}
+
 .award-card:hover .award-icon img {
     filter: brightness(0) saturate(100%) invert(1);
+}
+
+body.dark-mode .award-card:hover .award-icon img {
+    filter: brightness(0) saturate(100%) invert(0);
 }
 
 .award-title {
