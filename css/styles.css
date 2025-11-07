@@ -294,21 +294,42 @@ body.dark-mode .moon-icon {
 /* Publications */
 .publications-grid {
     display: grid;
-    gap: 1rem;
+    gap: 1.5rem;
 }
 
 .publication-card {
     background: var(--bg-white);
-    padding: 1rem;
-    border-radius: 0.5rem;
-    border-left: 4px solid var(--primary-color);
-    box-shadow: var(--shadow-sm);
-    transition: all 0.2s;
+    padding: 1.5rem;
+    border-radius: 0.75rem;
+    border-left: 5px solid var(--primary-color);
+    border: 1px solid var(--border-color);
+    border-left: 5px solid var(--primary-color);
+    box-shadow: var(--shadow-md);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    position: relative;
+    overflow: hidden;
+}
+
+.publication-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background: linear-gradient(90deg, var(--primary-color), transparent);
+    opacity: 0;
+    transition: opacity 0.3s;
 }
 
 .publication-card:hover {
-    box-shadow: var(--shadow-md);
-    transform: translateX(4px);
+    box-shadow: var(--shadow-lg);
+    transform: translateX(6px) translateY(-2px);
+    border-color: var(--primary-color);
+}
+
+.publication-card:hover::before {
+    opacity: 1;
 }
 
 .publication-title {
@@ -482,51 +503,97 @@ body.dark-mode .award-badge-link:hover {
 
 .award-card {
     background: var(--bg-white);
-    padding: 2rem;
-    border-radius: 0.5rem;
-    box-shadow: var(--shadow-sm);
+    padding: 2.5rem;
+    border-radius: 1rem;
+    border: 2px solid var(--border-color);
+    box-shadow: var(--shadow-md);
     text-align: center;
-    transition: all 0.2s;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    position: relative;
+    overflow: hidden;
+}
+
+.award-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(135deg, var(--primary-color) 0%, transparent 100%);
+    opacity: 0;
+    transition: opacity 0.3s;
+    pointer-events: none;
 }
 
 .award-card:hover {
     box-shadow: var(--shadow-lg);
-    transform: translateY(-4px);
+    transform: translateY(-8px) scale(1.02);
+    border-color: var(--primary-color);
+}
+
+.award-card:hover::before {
+    opacity: 0.05;
 }
 
 .award-icon {
-    width: 64px;
-    height: 64px;
-    margin: 0 auto 1rem;
+    width: 72px;
+    height: 72px;
+    margin: 0 auto 1.5rem;
+    position: relative;
+    z-index: 1;
+    background: var(--bg-gray);
+    border-radius: 50%;
+    padding: 0.75rem;
+    transition: all 0.3s;
+}
+
+.award-card:hover .award-icon {
+    transform: scale(1.1) rotate(5deg);
+    background: var(--primary-color);
 }
 
 .award-icon img {
     width: 100%;
     height: 100%;
+    filter: brightness(0) saturate(100%);
+}
+
+.award-card:hover .award-icon img {
+    filter: brightness(0) saturate(100%) invert(1);
 }
 
 .award-title {
-    font-size: 1.125rem;
+    font-size: 1.25rem;
     font-weight: 600;
     color: var(--text-primary);
     margin-bottom: 0.5rem;
+    position: relative;
+    z-index: 1;
 }
 
 .award-awarder {
     color: var(--text-secondary);
     margin-bottom: 0.25rem;
+    position: relative;
+    z-index: 1;
+    font-weight: 500;
 }
 
 .award-date {
     color: var(--text-secondary);
     font-size: 0.875rem;
     margin-bottom: 0.75rem;
+    position: relative;
+    z-index: 1;
 }
 
 .award-description {
     color: var(--text-secondary);
     font-size: 0.9rem;
     line-height: 1.5;
+    position: relative;
+    z-index: 1;
 }
 
 /* About */
