@@ -18,11 +18,26 @@
     --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
 }
 
+/* Dark Mode */
+body.dark-mode {
+    --primary-color: #34d399;
+    --primary-dark: #10b981;
+    --text-primary: #f9fafb;
+    --text-secondary: #d1d5db;
+    --bg-white: #1f2937;
+    --bg-gray: #111827;
+    --border-color: #374151;
+    --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.3);
+    --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.4);
+    --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.5);
+}
+
 body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
     line-height: 1.6;
     color: var(--text-primary);
     background-color: var(--bg-white);
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .container {
@@ -81,6 +96,53 @@ a:hover {
 .nav-link.active {
     color: var(--primary-color);
     border-bottom-color: var(--primary-color);
+}
+
+/* Dark Mode Toggle */
+.dark-mode-toggle {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-secondary);
+    transition: color 0.2s;
+    position: relative;
+    width: 32px;
+    height: 32px;
+}
+
+.dark-mode-toggle:hover {
+    color: var(--primary-color);
+}
+
+.dark-mode-toggle svg {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.sun-icon {
+    opacity: 1;
+    transform: rotate(0deg);
+}
+
+.moon-icon {
+    opacity: 0;
+    transform: rotate(180deg);
+}
+
+body.dark-mode .sun-icon {
+    opacity: 0;
+    transform: rotate(180deg);
+}
+
+body.dark-mode .moon-icon {
+    opacity: 1;
+    transform: rotate(0deg);
 }
 
 /* Hero Section */

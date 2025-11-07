@@ -110,10 +110,10 @@ function renderPublications() {
             awardsHtml = `<div class="publication-awards">${awardBadges}</div>`;
         }
 
-        // Highlight user's name in authors list
+        // Highlight user's name in authors list (make it bold)
         const highlightedAuthors = pub.authors.replace(
-            /Bernardo Martin-Iradi/g,
-            '<strong class="author-highlight">Bernardo Martin-Iradi</strong>'
+            /Bernardo Martin-Iradi/gi,
+            '<strong>Bernardo Martin-Iradi</strong>'
         );
 
         div.innerHTML = `
@@ -227,9 +227,34 @@ window.addEventListener('scroll', function() {
     });
 });
 
+// Dark Mode Toggle
+function initDarkMode() {
+    const darkModeToggle = document.getElementById('dark-mode-toggle');
+    const body = document.body;
+
+    // Check for saved dark mode preference or default to light mode
+    const savedMode = localStorage.getItem('darkMode');
+    if (savedMode === 'enabled') {
+        body.classList.add('dark-mode');
+    }
+
+    // Toggle dark mode on button click
+    darkModeToggle.addEventListener('click', function() {
+        body.classList.toggle('dark-mode');
+
+        // Save preference to localStorage
+        if (body.classList.contains('dark-mode')) {
+            localStorage.setItem('darkMode', 'enabled');
+        } else {
+            localStorage.setItem('darkMode', 'disabled');
+        }
+    });
+}
+
 // Initialize
 document.addEventListener('DOMContentLoaded', function() {
     renderExperience();
     renderAwards();
     renderPublications();
+    initDarkMode();
 });
