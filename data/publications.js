@@ -1,5 +1,19 @@
 const publicationsData = [
     {
+        title: "Handling Conflicts in Microscopic Railway Timetabling At Scale: A Hybrid Approach",
+        authors: "Florian Fuchs, Thomas Dubach, Jan Lordieck, Francesco Corman, Bernardo Martin-Iradi",
+        venue: "Under review in Journal of Rail Transport Planning & Management",
+        year: "2025",
+        date: "2025-11-07",
+        url: "",
+        preprint: "assets/publications/JRTP25b.pdf",
+        cite: "assets/citations/JRTP25b.bib",
+        awards: [{
+            text: "Highest score at the DISPLIB 2025 competition on Train Dispatching",
+            url: "https://displib.github.io/competition_2025.html"
+        }]
+    },
+    {
         title: "A Double Decomposition Algorithm for Network Planning and Operations in Deviated Fixed-route Microtransit",
         authors: "Bernardo Martin-Iradi, Alexandria Schmid, Kayla Cummings, Alexandre Jacquillat",
         venue: "Major revision in Operations Research",

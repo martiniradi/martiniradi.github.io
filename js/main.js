@@ -98,9 +98,15 @@ function renderPublications() {
 
         let awardsHtml = '';
         if (pub.awards && pub.awards.length > 0) {
-            const awardBadges = pub.awards.map(award =>
-                `<span class="award-badge">${award}</span>`
-            ).join('');
+            const awardBadges = pub.awards.map(award => {
+                if (typeof award === 'string') {
+                    return `<span class="award-badge">${award}</span>`;
+                } else if (award.url) {
+                    return `<a href="${award.url}" target="_blank" rel="noopener" class="award-badge award-badge-link">${award.text}</a>`;
+                } else {
+                    return `<span class="award-badge">${award.text}</span>`;
+                }
+            }).join('');
             awardsHtml = `<div class="publication-awards">${awardBadges}</div>`;
         }
 
