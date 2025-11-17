@@ -8,6 +8,7 @@ const publicationsData = [
         url: "",
         preprint: "assets/publications/JRTP25b.pdf",
         cite: "assets/citations/JRTP25b.bib",
+        image: "assets/images/publications/DISPLIB.jpg",
         awards: [{
             text: "Highest score at the DISPLIB 2025 competition on Train Dispatching",
             url: "https://displib.github.io/competition_2025.html"
@@ -22,6 +23,7 @@ const publicationsData = [
         url: "",
         preprint: "assets/publications/Microtransit.pdf",
         cite: "assets/citations/Microtransit.bib",
+        image: "assets/images/publications/Microtransit.jpg",
         awards: ["Finalist of the 2025 Transportation Science & Logistics Society Best Student Paper Award"]
     },
     {
@@ -34,6 +36,7 @@ const publicationsData = [
         url: "https://doi.org/10.1016/j.jrtpm.2025.100555",
         // preprint: "assets/publications/JRTP25.pdf",
         cite: "assets/citations/JRTP25.bib",
+        image: "assets/images/publications/JRTP25.jpg",
         awards: [
             "2nd Best-paper Award and 1st Prize Young Research Award (Florian Fuchs) at RailDresden 2025",
             "Honorable mention at the 2025 RAS Student Paper Competition at INFORMS '25"
@@ -47,7 +50,8 @@ const publicationsData = [
         date: "2025-05-20",
         url: "",
         preprint: "assets/publications/EJOR25.pdf",
-        cite: "assets/citations/EJOR25.bib"
+        cite: "assets/citations/EJOR25.bib",
+        image: "assets/images/publications/EJOR25.jpg"
     },
     {
         title: "An Adaptive Large Neighborhood Search Heuristic for The Multiport Continuous Berth Allocation Problem",
@@ -57,7 +61,8 @@ const publicationsData = [
         date: "2023-02-06",
         doi: "https://doi.org/10.1016/j.ejor.2024.02.003",
         url: "https://doi.org/10.1016/j.ejor.2024.02.003",
-        cite: "assets/citations/ALNS23.bib"
+        cite: "assets/citations/ALNS23.bib",
+        image: "assets/images/publications/ALNS23.jpg"
     },
     {
         title: "The Multiport Berth Allocation Problem with Speed Optimization: Exact Methods and a Cooperative Game Analysis",
@@ -68,6 +73,7 @@ const publicationsData = [
         doi: "https://doi.org/10.1287/trsc.2021.1112",
         url: "https://doi.org/10.1287/trsc.2021.1112",
         cite: "assets/citations/TS2022.bib",
+        image: "assets/images/publications/TS2022.jpg",
         awards: ["Best presentation Award at the 5th AIRO Young workshop, 2021"]
     },
     {
@@ -78,6 +84,7 @@ const publicationsData = [
         date: "2021-05-02",
         doi: "https://doi.org/10.1016/j.ejor.2021.04.041",
         url: "https://doi.org/10.1016/j.ejor.2021.04.041",
-        cite: "assets/citations/EJOR22.bib"
+        cite: "assets/citations/EJOR22.bib",
+        image: "assets/images/publications/EJOR22.jpg"
     }
 ];

@@ -116,12 +116,24 @@ function renderPublications() {
             '<strong>Bernardo Martin-Iradi</strong>'
         );
 
+        let imageHtml = '';
+        if (pub.image) {
+            imageHtml = `
+                <div class="publication-image">
+                    <img src="${pub.image}" alt="${pub.title}" loading="lazy">
+                </div>
+            `;
+        }
+
         div.innerHTML = `
-            <h3 class="publication-title">${pub.title}</h3>
-            <div class="publication-authors">${highlightedAuthors}</div>
-            <div class="publication-venue">${pub.venue}, ${pub.year}</div>
-            ${awardsHtml}
-            ${linksHtml}
+            ${imageHtml}
+            <div class="publication-content">
+                <h3 class="publication-title">${pub.title}</h3>
+                <div class="publication-authors">${highlightedAuthors}</div>
+                <div class="publication-venue">${pub.venue}, ${pub.year}</div>
+                ${awardsHtml}
+                ${linksHtml}
+            </div>
         `;
 
         container.appendChild(div);
